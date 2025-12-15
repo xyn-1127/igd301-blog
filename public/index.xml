@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IGD301 Blog</title>
+    <link>http://localhost:1313/igd301-blog/</link>
+    <description>Recent content on IGD301 Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/igd301-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 1 - Setup Blog</title>
+      <link>http://localhost:1313/igd301-blog/posts/lab1-setup-blog/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/igd301-blog/posts/lab1-setup-blog/</guid>
+      <description>&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;
+&lt;p&gt;Set up the course blog for IGD301 and publish it online.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-did&#34;&gt;What I did&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Installed Git, Go, Hugo (extended)&lt;/li&gt;
+&lt;li&gt;Created a Hugo site and added a theme&lt;/li&gt;
+&lt;li&gt;Deployed to GitHub Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;notes--issues&#34;&gt;Notes / Issues&lt;/h2&gt;
+&lt;h2 id=&#34;link&#34;&gt;Link&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Repo: &lt;a href=&#34;https://github.com/xyn-1127/igd301-blog.git&#34;&gt;https://github.com/xyn-1127/igd301-blog.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Website: &lt;a href=&#34;https://xyn-1127.github.io/igd301-blog/&#34;&gt;https://xyn-1127.github.io/igd301-blog/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

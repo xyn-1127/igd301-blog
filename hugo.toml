@@ -1,0 +1,14 @@
+baseURL = "https://xyn-1127.github.io/igd301-blog/"
+languageCode = "en-us"
+title = "IGD301 Blog"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowToc = true
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
