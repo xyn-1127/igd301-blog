@@ -4,29 +4,77 @@
     <title>Posts on IGD301 Blog</title>
     <link>http://localhost:1313/igd301-blog/posts/</link>
     <description>Recent content in Posts on IGD301 Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/igd301-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lab 1 - Setup Blog</title>
-      <link>http://localhost:1313/igd301-blog/posts/lab1-setup-blog/</link>
+      <title>Lab 4 — Roll-a-ball in VR</title>
+      <link>http://localhost:1313/igd301-blog/posts/lab4-roll-a-ball-in-vr/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/igd301-blog/posts/lab4-roll-a-ball-in-vr/</guid>
+      <description>&lt;p&gt;This Lab 4 aims to migrate the Lab 3 Roll-a-ball scene into a VR interaction framework and implement two fundamental selection techniques: &lt;strong&gt;direct selection (near-field grabbing)&lt;/strong&gt; and &lt;strong&gt;raycasting (far-field ray selection)&lt;/strong&gt;. What I completed so far includes: enabling XR support for the project and setting up a runnable VR interaction baseline; removing the original keyboard-driven rolling control for the ball and switching to XR-based object manipulation; adding an interactive Cube and configuring XR-related components for both the sphere and the Cube, so that they can be selected and moved using a ray, or grabbed directly when approached.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 3 — Roll-a-ball</title>
+      <link>http://localhost:1313/igd301-blog/posts/lab3-roll-a-ball/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/igd301-blog/posts/lab3-roll-a-ball/</guid>
+      <description>&lt;p&gt;This Lab 3 follows the Unity Learn Roll-a-ball workflow (Unity 6.3) and delivers a runnable minimal rolling-ball scene: I set up the ground and player sphere in a URP 3D project, configured lighting and materials, and implemented physics-based movement using a Rigidbody together with the new Input System (Player Input).&lt;br&gt;
+On top of the tutorial baseline, I added surrounding walls to constrain the play area, and adjusted the camera angle and distance to make the gameplay view more stable and readable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 2 — Setup Unity Environment</title>
+      <link>http://localhost:1313/igd301-blog/posts/lab2-setup-unity/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/igd301-blog/posts/lab2-setup-unity/</guid>
+      <description>&lt;p&gt;The goal of this Lab 2 was to set up a usable Unity development environment and complete a full basic workflow: creating a project, entering the editor, getting familiar with the core panels and operations, and validating the runtime pipeline using Play Mode. This ensures the environment is ready for upcoming course assignments.&lt;/p&gt;
+&lt;h2 id=&#34;1-installation&#34;&gt;1. Installation&lt;/h2&gt;
+&lt;p&gt;I installed the Unity Editor through Unity Hub and selected Unity 6.3 LTS (6000.3.2f1) on Windows. I chose an LTS release primarily for stability and compatibility, which helps avoid package/plugin issues during iterative course work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 1 — Setup Course Blog</title>
+      <link>http://localhost:1313/igd301-blog/posts/lab1-setuo-blog/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/posts/lab1-setup-blog/</guid>
-      <description>&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;
-&lt;p&gt;Set up the course blog for IGD301 and publish it online.&lt;/p&gt;
-&lt;h2 id=&#34;what-i-did&#34;&gt;What I did&lt;/h2&gt;
+      <guid>http://localhost:1313/igd301-blog/posts/lab1-setuo-blog/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In this first lab, I set up a public course blog that will host all lecture and lab homeworks for IGD301.&lt;br&gt;
+My goals were:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Installed Git, Go, Hugo (extended)&lt;/li&gt;
-&lt;li&gt;Created a Hugo site and added a theme&lt;/li&gt;
-&lt;li&gt;Deployed to GitHub Pages&lt;/li&gt;
+&lt;li&gt;Create a clean, readable blog structure for future posts&lt;/li&gt;
+&lt;li&gt;Make local preview easy for fast iteration&lt;/li&gt;
+&lt;li&gt;Deploy the site online using GitHub Pages so it is always accessible&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;notes--issues&#34;&gt;Notes / Issues&lt;/h2&gt;
-&lt;h2 id=&#34;link&#34;&gt;Link&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tooling-choice&#34;&gt;Tooling Choice&lt;/h2&gt;
+&lt;p&gt;I used &lt;strong&gt;Hugo&lt;/strong&gt; (static site generator) + &lt;strong&gt;GitHub Pages&lt;/strong&gt; for hosting.&lt;/p&gt;
+&lt;p&gt;Reasons:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Repo: (your repo link)&lt;/li&gt;
-&lt;li&gt;Website: (your pages link)&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;Hugo is lightweight and fast to build locally&lt;/li&gt;
+&lt;li&gt;Markdown writing is convenient for documenting labs&lt;/li&gt;
+&lt;li&gt;GitHub Pages + GitHub Actions provides automatic deployment on every push&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;setup-steps&#34;&gt;Setup Steps&lt;/h2&gt;
+&lt;h3 id=&#34;1-create-the-hugo-project&#34;&gt;1) Create the Hugo project&lt;/h3&gt;
+&lt;p&gt;I created a new Hugo site and initialized a git repository:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture HW2 — CAVE System</title>
+      <link>http://localhost:1313/igd301-blog/posts/lecture2-cave-system/</link>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/igd301-blog/posts/lecture2-cave-system/</guid>
+      <description>&lt;h3 id=&#34;1-difference-between-a-cave-system-and-head-mounted-displays-hmds&#34;&gt;1. Difference between a CAVE system and Head-Mounted Displays (HMDs)&lt;/h3&gt;
+&lt;p&gt;A CAVE (Cave Automatic Virtual Environment) is a room-scale immersive display: stereo projections are shown on multiple surfaces (walls, floor, sometimes ceiling), so the user stands inside the display space. The system is typically combined with position tracking so that the rendered viewpoint updates with the user’s motion and preserves a natural perspective.&lt;/p&gt;
+&lt;p&gt;An HMD delivers the visuals through a head-worn device, with the virtual scene presented individually to each user. The user’s viewpoint is updated primarily through head tracking.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture HW1 — VR Fails: Collision &amp; Safety Scenarios</title>
+      <link>http://localhost:1313/igd301-blog/posts/lecture1-vr-fails-dir/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/igd301-blog/posts/lecture1-vr-fails-dir/</guid>
+      <description>&lt;p&gt;VR is convincing because it replaces your visual world. That also makes it risky: many quick safety checks we rely on in daily life—peripheral awareness, glances at furniture, noticing where other people stand—are largely removed once the headset is on.&lt;/p&gt;
+&lt;p&gt;This post describes two VR-fail scenarios that can realistically cause collisions or injuries. For each one, it explains what typically triggers it and how to reduce the risk through room setup, system safeguards, and interaction design.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

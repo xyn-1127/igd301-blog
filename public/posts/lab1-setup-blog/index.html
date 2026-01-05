@@ -5,22 +5,29 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Lab 1 - Setup Blog | IGD301 Blog</title>
-<meta name="keywords" content="lab, setup">
-<meta name="description" content="Goal
-Set up the course blog for IGD301 and publish it online.
-What I did
+<title>Lab 1 — Setup Course Blog | IGD301 Blog</title>
+<meta name="keywords" content="IGD301, lab, setup, blog">
+<meta name="description" content="Overview
+In this first lab, I set up a public course blog that will host all lecture and lab homeworks for IGD301.
+My goals were:
 
-Installed Git, Go, Hugo (extended)
-Created a Hugo site and added a theme
-Deployed to GitHub Pages
+Create a clean, readable blog structure for future posts
+Make local preview easy for fast iteration
+Deploy the site online using GitHub Pages so it is always accessible
 
-Notes / Issues
-Link
 
-Repo: https://github.com/xyn-1127/igd301-blog.git
-Website: https://xyn-1127.github.io/igd301-blog/
-">
+Tooling Choice
+I used Hugo (static site generator) &#43; GitHub Pages for hosting.
+Reasons:
+
+Hugo is lightweight and fast to build locally
+Markdown writing is convenient for documenting labs
+GitHub Pages &#43; GitHub Actions provides automatic deployment on every push
+
+
+Setup Steps
+1) Create the Hugo project
+I created a new Hugo site and initialized a git repository:">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/igd301-blog/posts/lab1-setup-blog/">
 <link crossorigin="anonymous" href="/igd301-blog/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
@@ -128,9 +135,9 @@ Website: https://xyn-1127.github.io/igd301-blog/
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Lab 1 - Setup Blog
+      Lab 1 — Setup Course Blog
     </h1>
-    <div class="post-meta"><span title='2025-12-15 00:00:00 +0000 UTC'>December 15, 2025</span>&nbsp;·&nbsp;<span>1 min</span>
+    <div class="post-meta"><span title='2025-12-15 00:00:00 +0000 UTC'>December 15, 2025</span>&nbsp;·&nbsp;<span>2 min</span>
 
 </div>
   </header> <div class="toc">
@@ -141,32 +148,128 @@ Website: https://xyn-1127.github.io/igd301-blog/
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#goal" aria-label="Goal">Goal</a></li>
+                    <a href="#overview" aria-label="Overview">Overview</a></li>
                 <li>
-                    <a href="#what-i-did" aria-label="What I did">What I did</a></li>
+                    <a href="#tooling-choice" aria-label="Tooling Choice">Tooling Choice</a></li>
                 <li>
-                    <a href="#notes--issues" aria-label="Notes / Issues">Notes / Issues</a></li>
+                    <a href="#setup-steps" aria-label="Setup Steps">Setup Steps</a><ul>
+                        
                 <li>
-                    <a href="#link" aria-label="Link">Link</a>
+                    <a href="#1-create-the-hugo-project" aria-label="1) Create the Hugo project">1) Create the Hugo project</a></li>
+                <li>
+                    <a href="#2-configure-the-site" aria-label="2) Configure the site">2) Configure the site</a></li>
+                <li>
+                    <a href="#3-write-the-first-post" aria-label="3) Write the first post">3) Write the first post</a></li>
+                <li>
+                    <a href="#4-local-preview" aria-label="4) Local preview">4) Local preview</a></li></ul>
+                </li>
+                <li>
+                    <a href="#deployment-github-pages" aria-label="Deployment (GitHub Pages)">Deployment (GitHub Pages)</a><ul>
+                        
+                <li>
+                    <a href="#1-create-a-github-repository" aria-label="1) Create a GitHub repository">1) Create a GitHub repository</a></li>
+                <li>
+                    <a href="#2-deploy-with-github-actions" aria-label="2) Deploy with GitHub Actions">2) Deploy with GitHub Actions</a></li></ul>
+                </li>
+                <li>
+                    <a href="#result" aria-label="Result">Result</a></li>
+                <li>
+                    <a href="#issues--notes" aria-label="Issues &amp; Notes">Issues &amp; Notes</a>
                 </li>
             </ul>
         </div>
     </details>
 </div>
 
-  <div class="post-content"><h2 id="goal">Goal<a hidden class="anchor" aria-hidden="true" href="#goal">#</a></h2>
-<p>Set up the course blog for IGD301 and publish it online.</p>
-<h2 id="what-i-did">What I did<a hidden class="anchor" aria-hidden="true" href="#what-i-did">#</a></h2>
+  <div class="post-content"><h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>In this first lab, I set up a public course blog that will host all lecture and lab homeworks for IGD301.<br>
+My goals were:</p>
 <ul>
-<li>Installed Git, Go, Hugo (extended)</li>
-<li>Created a Hugo site and added a theme</li>
-<li>Deployed to GitHub Pages</li>
+<li>Create a clean, readable blog structure for future posts</li>
+<li>Make local preview easy for fast iteration</li>
+<li>Deploy the site online using GitHub Pages so it is always accessible</li>
 </ul>
-<h2 id="notes--issues">Notes / Issues<a hidden class="anchor" aria-hidden="true" href="#notes--issues">#</a></h2>
-<h2 id="link">Link<a hidden class="anchor" aria-hidden="true" href="#link">#</a></h2>
+<hr>
+<h2 id="tooling-choice">Tooling Choice<a hidden class="anchor" aria-hidden="true" href="#tooling-choice">#</a></h2>
+<p>I used <strong>Hugo</strong> (static site generator) + <strong>GitHub Pages</strong> for hosting.</p>
+<p>Reasons:</p>
 <ul>
-<li>Repo: <a href="https://github.com/xyn-1127/igd301-blog.git">https://github.com/xyn-1127/igd301-blog.git</a></li>
-<li>Website: <a href="https://xyn-1127.github.io/igd301-blog/">https://xyn-1127.github.io/igd301-blog/</a></li>
+<li>Hugo is lightweight and fast to build locally</li>
+<li>Markdown writing is convenient for documenting labs</li>
+<li>GitHub Pages + GitHub Actions provides automatic deployment on every push</li>
+</ul>
+<hr>
+<h2 id="setup-steps">Setup Steps<a hidden class="anchor" aria-hidden="true" href="#setup-steps">#</a></h2>
+<h3 id="1-create-the-hugo-project">1) Create the Hugo project<a hidden class="anchor" aria-hidden="true" href="#1-create-the-hugo-project">#</a></h3>
+<p>I created a new Hugo site and initialized a git repository:</p>
+<ul>
+<li><code>hugo new site igd301-blog</code></li>
+<li><code>git init</code></li>
+</ul>
+<p>Then I added a theme (PaperMod) as a git submodule:</p>
+<ul>
+<li><code>git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod</code></li>
+</ul>
+<h3 id="2-configure-the-site">2) Configure the site<a hidden class="anchor" aria-hidden="true" href="#2-configure-the-site">#</a></h3>
+<p>I created/updated <code>hugo.toml</code> with a minimal configuration:</p>
+<ul>
+<li>Site title</li>
+<li>Theme name</li>
+<li>Menu entry for posts</li>
+<li><code>baseURL</code> pointing to my GitHub Pages address</li>
+</ul>
+<h3 id="3-write-the-first-post">3) Write the first post<a hidden class="anchor" aria-hidden="true" href="#3-write-the-first-post">#</a></h3>
+<p>I created the first blog post:</p>
+<ul>
+<li><code>hugo new posts/lab1-setup-blog.md</code></li>
+</ul>
+<p>Then I wrote this post to document what I did and any issues.</p>
+<h3 id="4-local-preview">4) Local preview<a hidden class="anchor" aria-hidden="true" href="#4-local-preview">#</a></h3>
+<p>To preview the blog locally:</p>
+<ul>
+<li><code>hugo server -D</code></li>
+</ul>
+<p>This starts a local server (default: <code>http://localhost:1313/</code>) and hot-reloads changes, which is very convenient when writing posts.</p>
+<hr>
+<h2 id="deployment-github-pages">Deployment (GitHub Pages)<a hidden class="anchor" aria-hidden="true" href="#deployment-github-pages">#</a></h2>
+<h3 id="1-create-a-github-repository">1) Create a GitHub repository<a hidden class="anchor" aria-hidden="true" href="#1-create-a-github-repository">#</a></h3>
+<p>I created a public repository on GitHub:</p>
+<ul>
+<li>Repo name: <code>igd301-blog</code> (project page)</li>
+<li>Default branch: <code>main</code></li>
+</ul>
+<p>Then I pushed the local project to GitHub.</p>
+<h3 id="2-deploy-with-github-actions">2) Deploy with GitHub Actions<a hidden class="anchor" aria-hidden="true" href="#2-deploy-with-github-actions">#</a></h3>
+<p>In the repository settings, I enabled <strong>Pages</strong> and selected <strong>GitHub Actions</strong> as the deployment source.</p>
+<p>I added a workflow file at:</p>
+<ul>
+<li><code>.github/workflows/hugo.yml</code></li>
+</ul>
+<p>This workflow:</p>
+<ol>
+<li>Checks out the repository (including submodules for the theme)</li>
+<li>Installs Hugo (extended version)</li>
+<li>Builds the site into the <code>public/</code> folder</li>
+<li>Uploads the build artifact and deploys it to GitHub Pages</li>
+</ol>
+<p>After the workflow finished successfully, GitHub generated a public Pages URL.</p>
+<hr>
+<h2 id="result">Result<a hidden class="anchor" aria-hidden="true" href="#result">#</a></h2>
+<ul>
+<li><strong>Website:</strong> <a href="https://xyn-1127.github.io/igd301-blog/">https://xyn-1127.github.io/igd301-blog/</a></li>
+<li><strong>Repository:</strong> <a href="https://github.com/xyn-1127/igd301-blog">https://github.com/xyn-1127/igd301-blog</a></li>
+</ul>
+<hr>
+<h2 id="issues--notes">Issues &amp; Notes<a hidden class="anchor" aria-hidden="true" href="#issues--notes">#</a></h2>
+<ul>
+<li>
+<p><strong>Base URL matters:</strong> If <code>baseURL</code> is not set correctly, the theme CSS may not load and links can be wrong.<br>
+I fixed this by setting:</p>
+<p><code>baseURL = &quot;https://xyn-1127.github.io/igd301-blog/&quot;</code></p>
+</li>
+<li>
+<p><strong>Theme submodule:</strong> Using a theme as a git submodule keeps the theme version controlled and reproducible, but it also means the workflow needs <code>submodules: recursive</code> in the checkout step.</p>
+</li>
 </ul>
 
 
@@ -174,15 +277,17 @@ Website: https://xyn-1127.github.io/igd301-blog/
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="http://localhost:1313/igd301-blog/tags/igd301/">IGD301</a></li>
       <li><a href="http://localhost:1313/igd301-blog/tags/lab/">Lab</a></li>
       <li><a href="http://localhost:1313/igd301-blog/tags/setup/">Setup</a></li>
+      <li><a href="http://localhost:1313/igd301-blog/tags/blog/">Blog</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/igd301-blog/">IGD301 Blog</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/igd301-blog/">IGD301 Blog</a></span> · 
 
     <span>
         Powered by

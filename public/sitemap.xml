@@ -2,23 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/igd301-blog/tags/igd301/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/igd301-blog/</loc>
-    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/igd301-blog/tags/lab/</loc>
-    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/igd301-blog/posts/lab1-setup-blog/</loc>
-    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/posts/lab4-roll-a-ball-in-vr/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/igd301-blog/posts/</loc>
-    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/igd301-blog/tags/setup/</loc>
-    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/roll-a-ball/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/igd301-blog/tags/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/tags/unity/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/tags/vr/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lab3-roll-a-ball/</loc>
+    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lab2-setup-unity/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/tags/setup/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/tags/blog/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lab1-setuo-blog/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/tags/cave-system/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/tags/lecture/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lecture2-cave-system/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lecture1-vr-fails-dir/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/tags/safety/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/igd301-blog/categories/</loc>
   </url>
