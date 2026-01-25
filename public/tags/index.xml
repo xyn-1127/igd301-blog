@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on IGD301 Blog</title>
-    <link>http://localhost:1313/igd301-blog/tags/</link>
+    <link>https://xyn-1127.github.io/igd301-blog/tags/</link>
     <description>Recent content in Tags on IGD301 Blog</description>
     <generator>Hugo -- 0.154.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/igd301-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://xyn-1127.github.io/igd301-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture</title>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/lecture/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/lecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Locomotion</title>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/locomotion/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/locomotion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Parkour</title>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/parkour/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/parkour/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VR</title>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/vr/</link>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/vr/</guid>
+      <description></description>
+    </item>
     <item>
       <title>IGD301</title>
-      <link>http://localhost:1313/igd301-blog/tags/igd301/</link>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/igd301/</link>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/igd301/</guid>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/igd301/</guid>
       <description></description>
     </item>
     <item>
       <title>Lab</title>
-      <link>http://localhost:1313/igd301-blog/tags/lab/</link>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/lab/</link>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/lab/</guid>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/lab/</guid>
       <description></description>
     </item>
     <item>
       <title>Roll-a-Ball</title>
-      <link>http://localhost:1313/igd301-blog/tags/roll-a-ball/</link>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/roll-a-ball/</link>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/roll-a-ball/</guid>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/roll-a-ball/</guid>
       <description></description>
     </item>
     <item>
       <title>Unity</title>
-      <link>http://localhost:1313/igd301-blog/tags/unity/</link>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/unity/</link>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/unity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vr</title>
-      <link>http://localhost:1313/igd301-blog/tags/vr/</link>
-      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/vr/</guid>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/unity/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
-      <link>http://localhost:1313/igd301-blog/tags/setup/</link>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/setup/</link>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/setup/</guid>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/igd301-blog/tags/blog/</link>
+      <link>https://xyn-1127.github.io/igd301-blog/tags/blog/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CAVE System</title>
-      <link>http://localhost:1313/igd301-blog/tags/cave-system/</link>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/cave-system/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lecture</title>
-      <link>http://localhost:1313/igd301-blog/tags/lecture/</link>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/lecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Safety</title>
-      <link>http://localhost:1313/igd301-blog/tags/safety/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/igd301-blog/tags/safety/</guid>
+      <guid>https://xyn-1127.github.io/igd301-blog/tags/blog/</guid>
       <description></description>
     </item>
   </channel>
