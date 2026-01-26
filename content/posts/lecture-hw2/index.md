@@ -1,6 +1,6 @@
 ---
 title: "Lecture Homework 2: Locomotion Pitch — Gait-Based Arm-Swing for VR Parkour"
-date: 2026-12-10
+date: 2025-12-10
 draft: false
 tags: ["lecture", "vr", "Locomotion", "parkour"]
 ---
