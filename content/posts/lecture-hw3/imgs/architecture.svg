@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="380" viewBox="0 0 700 380" font-family="Arial, Helvetica, sans-serif">
+<rect width="700" height="380" fill="#FAFAFA" rx="8"/>
+<text x="350" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">Gait-Based Arm-Swing - System Overview</text>
+<rect x="30" y="55" width="150" height="50" fill="white" stroke="#4A90D9" stroke-width="2" rx="6"/>
+<text x="105.0" y="75" text-anchor="middle" font-size="11" fill="#4A90D9" font-weight="bold">Controller Input</text>
+<text x="105.0" y="91" text-anchor="middle" font-size="10" fill="#666">Position + Trigger</text>
+<rect x="210" y="55" width="150" height="50" fill="white" stroke="#7ED321" stroke-width="2" rx="6"/>
+<text x="285.0" y="75" text-anchor="middle" font-size="11" fill="#7ED321" font-weight="bold">Signal Processing</text>
+<text x="285.0" y="91" text-anchor="middle" font-size="10" fill="#666">EMA Baseline Filter</text>
+<rect x="390" y="55" width="140" height="50" fill="white" stroke="#F5A623" stroke-width="2" rx="6"/>
+<text x="460.0" y="75" text-anchor="middle" font-size="11" fill="#F5A623" font-weight="bold">Gait Detection</text>
+<text x="460.0" y="91" text-anchor="middle" font-size="10" fill="#666">Power + Dead Zone</text>
+<rect x="560" y="55" width="120" height="50" fill="white" stroke="#D0021B" stroke-width="2" rx="6"/>
+<text x="620.0" y="75" text-anchor="middle" font-size="11" fill="#D0021B" font-weight="bold">Direction</text>
+<text x="620.0" y="91" text-anchor="middle" font-size="10" fill="#666">HMD Yaw Forward</text>
+<rect x="30" y="155" width="150" height="50" fill="white" stroke="#9013FE" stroke-width="2" rx="6"/>
+<text x="105.0" y="175" text-anchor="middle" font-size="11" fill="#9013FE" font-weight="bold">Safety Gate</text>
+<text x="105.0" y="191" text-anchor="middle" font-size="10" fill="#666">Hold-to-Engage</text>
+<rect x="210" y="155" width="150" height="50" fill="white" stroke="#4A90D9" stroke-width="2" rx="6"/>
+<text x="285.0" y="175" text-anchor="middle" font-size="11" fill="#4A90D9" font-weight="bold">Speed Mapping</text>
+<text x="285.0" y="191" text-anchor="middle" font-size="10" fill="#666">gaitAxis x maxSpeed</text>
+<rect x="390" y="155" width="140" height="50" fill="white" stroke="#7ED321" stroke-width="2" rx="6"/>
+<text x="460.0" y="175" text-anchor="middle" font-size="11" fill="#7ED321" font-weight="bold">Physics Drive</text>
+<text x="460.0" y="191" text-anchor="middle" font-size="10" fill="#666">Rigidbody Velocity</text>
+<rect x="560" y="155" width="120" height="50" fill="white" stroke="#F5A623" stroke-width="2" rx="6"/>
+<text x="620.0" y="175" text-anchor="middle" font-size="11" fill="#F5A623" font-weight="bold">Jump</text>
+<text x="620.0" y="191" text-anchor="middle" font-size="10" fill="#666">Y Button + Cooldown</text>
+<rect x="150" y="260" width="180" height="50" fill="white" stroke="#D0021B" stroke-width="2" rx="6"/>
+<text x="240.0" y="280" text-anchor="middle" font-size="11" fill="#D0021B" font-weight="bold">FixedUpdate()</text>
+<text x="240.0" y="296" text-anchor="middle" font-size="10" fill="#666">Apply Horizontal Vel</text>
+<rect x="400" y="260" width="180" height="50" fill="white" stroke="#9013FE" stroke-width="2" rx="6"/>
+<text x="490.0" y="280" text-anchor="middle" font-size="11" fill="#9013FE" font-weight="bold">Collision</text>
+<text x="490.0" y="296" text-anchor="middle" font-size="10" fill="#666">Coins / Banners / Tasks</text>
+<defs><marker id="ah" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#999"/></marker></defs>
+<line x1="180" y1="80" x2="210" y2="80" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="360" y1="80" x2="390" y2="80" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="530" y1="80" x2="560" y2="80" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="105" y1="105" x2="105" y2="155" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="285" y1="105" x2="285" y2="155" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="360" y1="180" x2="390" y2="180" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="530" y1="180" x2="560" y2="180" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="285" y1="205" x2="285" y2="260" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="460" y1="205" x2="460" y2="260" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="330" y1="285" x2="400" y2="285" stroke="#999" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="350" y="368" text-anchor="middle" font-size="10" fill="#AAA" font-style="italic">Update() per frame  |  FixedUpdate() physics sync</text>
+</svg>

@@ -7,7 +7,7 @@ tags: ["IGD301", "lab", "setup", "blog"]
 
 ## Overview
 
-In this first lab, I set up a public course blog that will host all lecture and lab homeworks for IGD301.  
+In this first lab, I set up a public course blog that will host all lecture and lab homeworks for this course.  
 My goals were:
 
 - Create a clean, readable blog structure for future posts
@@ -18,7 +18,7 @@ My goals were:
 
 ## Tooling Choice
 
-I used **Hugo** (static site generator) + **GitHub Pages** for hosting.
+I used **Hugo**  + **GitHub Pages** for hosting.
 
 Reasons:
 

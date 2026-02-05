@@ -7,7 +7,7 @@ tags: ["lecture", "vr", "Locomotion", "parkour"]
 
 
 
-The goal of this homework is straightforward: design a locomotion technique that fits the provided VR parkour scene better than the default. The level is a fixed route with banner timing checkpoints and lots of collectible coins. The key twist is that not all coins are on the ground—some are floating slightly above it. So it’s not just about moving fast. You also need to stop on demand, make small position corrections, and occasionally perform a small vertical action to reach elevated coins.
+The goal of this homework is to design a locomotion technique that fits the provided VR parkour scene better than the default. The level is a fixed route with banner timing checkpoints and lots of collectible coins. The key twist is that not all coins are on the ground—some are floating slightly above it. So it’s not just about moving fast. You also need to stop on demand, make small position corrections, and occasionally perform a small vertical action to reach elevated coins.
 
 ![image-20260124214920915](./imgs/image-20260124214920915.png)
 

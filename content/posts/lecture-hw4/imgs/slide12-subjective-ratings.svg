@@ -1,0 +1,44 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='420' viewBox='0 0 1000 420'>
+<defs>
+<style>
+.bg{fill:#fdfaf5;} .axis{stroke:#cbd5e1;stroke-width:1;} .grid{stroke:#e2e8f0;stroke-width:1;} .label{font-family:Arial, sans-serif;font-size:14px;fill:#1e293b;} .value{font-family:Arial, sans-serif;font-size:13px;fill:#0f172a;} .title{font-family:Arial, sans-serif;font-size:18px;font-weight:700;fill:#0f172a;}
+</style>
+</defs>
+<rect class='bg' x='0' y='0' width='100%' height='100%' />
+<text class='title' x='260' y='26'>Subjective Ratings (1-10)</text>
+<line class='grid' x1='260.0' y1='40' x2='260.0' y2='250' />
+<text class='label' x='260.0' y='270' text-anchor='middle'>0</text>
+<line class='grid' x1='330.0' y1='40' x2='330.0' y2='250' />
+<text class='label' x='330.0' y='270' text-anchor='middle'>1</text>
+<line class='grid' x1='400.0' y1='40' x2='400.0' y2='250' />
+<text class='label' x='400.0' y='270' text-anchor='middle'>2</text>
+<line class='grid' x1='470.0' y1='40' x2='470.0' y2='250' />
+<text class='label' x='470.0' y='270' text-anchor='middle'>3</text>
+<line class='grid' x1='540.0' y1='40' x2='540.0' y2='250' />
+<text class='label' x='540.0' y='270' text-anchor='middle'>4</text>
+<line class='grid' x1='610.0' y1='40' x2='610.0' y2='250' />
+<text class='label' x='610.0' y='270' text-anchor='middle'>5</text>
+<line class='grid' x1='680.0' y1='40' x2='680.0' y2='250' />
+<text class='label' x='680.0' y='270' text-anchor='middle'>6</text>
+<line class='grid' x1='750.0' y1='40' x2='750.0' y2='250' />
+<text class='label' x='750.0' y='270' text-anchor='middle'>7</text>
+<line class='grid' x1='820.0' y1='40' x2='820.0' y2='250' />
+<text class='label' x='820.0' y='270' text-anchor='middle'>8</text>
+<line class='grid' x1='890.0' y1='40' x2='890.0' y2='250' />
+<text class='label' x='890.0' y='270' text-anchor='middle'>9</text>
+<line class='grid' x1='960.0' y1='40' x2='960.0' y2='250' />
+<text class='label' x='960.0' y='270' text-anchor='middle'>10</text>
+<text class='label' x='248' y='63.0' text-anchor='end'>Motion Sickness (lower=better)</text>
+<rect x='260' y='40' width='189.0' height='36' rx='6' fill='#10B981' opacity='0.85' />
+<text class='value' x='455.0' y='63.0'>2.7</text>
+<text class='label' x='248' y='121.0' text-anchor='end'>Ease of Use</text>
+<rect x='260' y='98' width='489.99999999999994' height='36' rx='6' fill='#4ECDC4' opacity='0.85' />
+<text class='value' x='756.0' y='121.0'>7</text>
+<text class='label' x='248' y='179.0' text-anchor='end'>Presence</text>
+<rect x='260' y='156' width='539.0' height='36' rx='6' fill='#2E5077' opacity='0.85' />
+<text class='value' x='805.0' y='179.0'>7.7</text>
+<text class='label' x='248' y='237.0' text-anchor='end'>Enjoyment</text>
+<rect x='260' y='214' width='560.0' height='36' rx='6' fill='#1E3A5F' opacity='0.85' />
+<text class='value' x='826.0' y='237.0'>8</text>
+<line class='axis' x1='260' y1='250' x2='960' y2='250' />
+</svg>
