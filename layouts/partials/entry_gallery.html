@@ -1,0 +1,36 @@
+{{- $images := slice -}}
+{{- $matches := findRE `!\[[^\]]*\]\(([^)]+)\)` .RawContent 30 -}}
+{{- range $m := $matches -}}
+  {{- $imgPath := replaceRE `!\[[^\]]*\]\(([^)]+)\)` "$1" $m -}}
+  {{- $imgPath = strings.TrimSpace (replaceRE `\s+".*"$` "" $imgPath) -}}
+  {{- $imgPath = strings.TrimPrefix "<" $imgPath -}}
+  {{- $imgPath = strings.TrimSuffix ">" $imgPath -}}
+
+  {{- $src := "" -}}
+  {{- $u := urls.Parse $imgPath -}}
+  {{- if $u.IsAbs -}}
+    {{- $src = $u.String -}}
+  {{- else -}}
+    {{- $resPath := strings.TrimPrefix "./" $u.Path -}}
+    {{- with or ($.Resources.GetMatch $resPath) ($.Resources.Get $resPath) (resources.Get $resPath) -}}
+      {{- $src = .RelPermalink -}}
+    {{- else -}}
+      {{- $src = relURL $imgPath -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if and $src (not (in $images $src)) -}}
+    {{- $images = $images | append $src -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $maxCount := site.Params.homeInlineGalleryMax | default 3 -}}
+{{- if gt (len $images) 0 -}}
+<div class="entry-gallery">
+  {{- range first $maxCount $images -}}
+  <span class="entry-gallery-item">
+    <img src="{{ . }}" loading="lazy" alt="">
+  </span>
+  {{- end -}}
+</div>
+{{- end -}}

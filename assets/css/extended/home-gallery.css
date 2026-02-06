@@ -1,0 +1,27 @@
+.entry-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 10px 0 6px;
+}
+
+.entry-gallery-item {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: var(--code-bg);
+}
+
+.entry-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .entry-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

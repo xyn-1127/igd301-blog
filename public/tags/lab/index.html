@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/igd301-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=igd301-blog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Lab | IGD301 Blog</title>
+<meta name="robots" content="noindex, nofollow">
+<title>Lab | Human-Computer Interaction for Mixed Reality Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="https://xyn-1127.github.io/igd301-blog/tags/lab/">
-<link crossorigin="anonymous" href="/igd301-blog/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://xyn-1127.github.io/igd301-blog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://xyn-1127.github.io/igd301-blog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://xyn-1127.github.io/igd301-blog/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://xyn-1127.github.io/igd301-blog/apple-touch-icon.png">
-<link rel="mask-icon" href="https://xyn-1127.github.io/igd301-blog/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/igd301-blog/tags/lab/">
+<link crossorigin="anonymous" href="/igd301-blog/assets/css/stylesheet.20935e9e2b0d79f09b50e7102b21f0af34d4a88fe0b9a78ec1b5bcf971931843.css" integrity="sha256-IJNenisNefCbUOcQKyHwrzTUqI/guaeOwbW8&#43;XGTGEM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/igd301-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/igd301-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/igd301-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/igd301-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/igd301-blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://xyn-1127.github.io/igd301-blog/tags/lab/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="https://xyn-1127.github.io/igd301-blog/tags/lab/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/igd301-blog/tags/lab/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/igd301-blog/tags/lab/">
 <noscript>
     <style>
         #theme-toggle,
@@ -71,21 +71,26 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://xyn-1127.github.io/igd301-blog/tags/lab/">
-  <meta property="og:site_name" content="IGD301 Blog">
-  <meta property="og:title" content="Lab">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Lab">
-<meta name="twitter:description" content="">
+</script><script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 </head>
 <body class="list" id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://xyn-1127.github.io/igd301-blog/" accesskey="h" title="IGD301 Blog (Alt + H)">IGD301 Blog</a>
+            <a href="http://localhost:1313/igd301-blog/" accesskey="h" title="Human-Computer Interaction for Mixed Reality Blog (Alt + H)">Human-Computer Interaction for Mixed Reality Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -111,7 +116,7 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://xyn-1127.github.io/igd301-blog/posts/" title="Posts">
+                <a href="http://localhost:1313/igd301-blog/posts/" title="Posts">
                     <span>Posts</span>
                 </a>
             </li>
@@ -127,6 +132,21 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Lab 5 — Locomotion Technique Implementation
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This post documents the full implementation process of IGD301 Lab Homework 5: taking my locomotion concept from previous assignments and turning it into a working Unity system inside the course-provided parkour scene.
+For this lab, all core gameplay locomotion behavior is centralized in LocomotionTechnique.cs, including movement gating, arm-swing power detection, speed mapping, jump, respawn, stage triggers, and coin collection.
+1. Goals and Scene Constraints This assignment is not a generic locomotion demo. It has to work in the official parkour route, which immediately imposes three constraints:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-02-05 00:00:00 +0000 UTC'>February 5, 2026</span>&nbsp;·&nbsp;<span>11 min</span></footer>
+  <a class="entry-link" aria-label="post link to Lab 5 — Locomotion Technique Implementation" href="http://localhost:1313/igd301-blog/posts/lab5-locomotion-technique/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Lab 4 — Roll-a-ball in VR
     </h2>
   </header>
@@ -135,8 +155,8 @@
 In the end, I built it as a small “tabletop game”: Roll-a-ball is scaled down into a tray/board placed on a table. I can grab the whole board with the controllers, move it around, and drop it. I can also use a right-hand ray to select and grab the board from a distance, while still letting the ball roll inside, collect pickups, and keep the UI readable in VR.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-18 00:00:00 +0000 UTC'>December 18, 2025</span>&nbsp;·&nbsp;<span>11 min</span></footer>
-  <a class="entry-link" aria-label="post link to Lab 4 — Roll-a-ball in VR" href="https://xyn-1127.github.io/igd301-blog/posts/lab4-roll-a-ball-in-vr/"></a>
+  <footer class="entry-footer"><span title='2026-01-05 00:00:00 +0000 UTC'>January 5, 2026</span>&nbsp;·&nbsp;<span>11 min</span></footer>
+  <a class="entry-link" aria-label="post link to Lab 4 — Roll-a-ball in VR" href="http://localhost:1313/igd301-blog/posts/lab4-roll-a-ball-in-vr/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -150,7 +170,7 @@ On top of the tutorial baseline, I added surrounding walls to constrain the play
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-12-17 00:00:00 +0000 UTC'>December 17, 2025</span>&nbsp;·&nbsp;<span>8 min</span></footer>
-  <a class="entry-link" aria-label="post link to Lab 3 — Roll-a-ball" href="https://xyn-1127.github.io/igd301-blog/posts/lab3-roll-a-ball/"></a>
+  <a class="entry-link" aria-label="post link to Lab 3 — Roll-a-ball" href="http://localhost:1313/igd301-blog/posts/lab3-roll-a-ball/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -164,7 +184,7 @@ On top of the tutorial baseline, I added surrounding walls to constrain the play
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-12-16 00:00:00 +0000 UTC'>December 16, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Lab 2 — Setup Unity Environment" href="https://xyn-1127.github.io/igd301-blog/posts/lab2-setup-unity/"></a>
+  <a class="entry-link" aria-label="post link to Lab 2 — Setup Unity Environment" href="http://localhost:1313/igd301-blog/posts/lab2-setup-unity/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -173,20 +193,20 @@ On top of the tutorial baseline, I added surrounding walls to constrain the play
     </h2>
   </header>
   <div class="entry-content">
-    <p>Overview In this first lab, I set up a public course blog that will host all lecture and lab homeworks for IGD301.
+    <p>Overview In this first lab, I set up a public course blog that will host all lecture and lab homeworks for this course.
 My goals were:
-Create a clean, readable blog structure for future posts Make local preview easy for fast iteration Deploy the site online using GitHub Pages so it is always accessible Tooling Choice I used Hugo (static site generator) &#43; GitHub Pages for hosting.
+Create a clean, readable blog structure for future posts Make local preview easy for fast iteration Deploy the site online using GitHub Pages so it is always accessible Tooling Choice I used Hugo &#43; GitHub Pages for hosting.
 Reasons:
 Hugo is lightweight and fast to build locally Markdown writing is convenient for documenting labs GitHub Pages &#43; GitHub Actions provides automatic deployment on every push Setup Steps 1) Create the Hugo project I created a new Hugo site and initialized a git repository:
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-12-15 00:00:00 +0000 UTC'>December 15, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to Lab 1 — Setup Course Blog" href="https://xyn-1127.github.io/igd301-blog/posts/lab1-setuo-blog/"></a>
+  <a class="entry-link" aria-label="post link to Lab 1 — Setup Course Blog" href="http://localhost:1313/igd301-blog/posts/lab1-setup-blog/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://xyn-1127.github.io/igd301-blog/">IGD301 Blog</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/igd301-blog/">Human-Computer Interaction for Mixed Reality Blog</a></span> · 
 
     <span>
         Powered by

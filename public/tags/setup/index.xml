@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Setup on IGD301 Blog</title>
-    <link>https://xyn-1127.github.io/igd301-blog/tags/setup/</link>
-    <description>Recent content in Setup on IGD301 Blog</description>
-    <generator>Hugo -- 0.154.2</generator>
+    <title>Setup on Human-Computer Interaction for Mixed Reality Blog</title>
+    <link>http://localhost:1313/igd301-blog/tags/setup/</link>
+    <description>Recent content in Setup on Human-Computer Interaction for Mixed Reality Blog</description>
+    <generator>Hugo -- 0.155.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://xyn-1127.github.io/igd301-blog/tags/setup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/igd301-blog/tags/setup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 2 — Setup Unity Environment</title>
-      <link>https://xyn-1127.github.io/igd301-blog/posts/lab2-setup-unity/</link>
+      <link>http://localhost:1313/igd301-blog/posts/lab2-setup-unity/</link>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://xyn-1127.github.io/igd301-blog/posts/lab2-setup-unity/</guid>
+      <guid>http://localhost:1313/igd301-blog/posts/lab2-setup-unity/</guid>
       <description>&lt;p&gt;The goal of this Lab 2 was to set up a usable Unity development environment and complete a full basic workflow: creating a project, entering the editor, getting familiar with the core panels and operations, and validating the runtime pipeline using Play Mode. This ensures the environment is ready for upcoming course assignments.&lt;/p&gt;
 &lt;h2 id=&#34;1-installation&#34;&gt;1. Installation&lt;/h2&gt;
 &lt;p&gt;I installed the Unity Editor through Unity Hub and selected Unity 6.3 LTS (6000.3.2f1) on Windows. I chose an LTS release primarily for stability and compatibility, which helps avoid package/plugin issues during iterative course work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab 1 — Setup Course Blog</title>
-      <link>https://xyn-1127.github.io/igd301-blog/posts/lab1-setuo-blog/</link>
+      <link>http://localhost:1313/igd301-blog/posts/lab1-setup-blog/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://xyn-1127.github.io/igd301-blog/posts/lab1-setuo-blog/</guid>
+      <guid>http://localhost:1313/igd301-blog/posts/lab1-setup-blog/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;In this first lab, I set up a public course blog that will host all lecture and lab homeworks for IGD301.&lt;br&gt;
+&lt;p&gt;In this first lab, I set up a public course blog that will host all lecture and lab homeworks for this course.&lt;br&gt;
 My goals were:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a clean, readable blog structure for future posts&lt;/li&gt;
@@ -32,7 +32,7 @@ My goals were:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tooling-choice&#34;&gt;Tooling Choice&lt;/h2&gt;
-&lt;p&gt;I used &lt;strong&gt;Hugo&lt;/strong&gt; (static site generator) + &lt;strong&gt;GitHub Pages&lt;/strong&gt; for hosting.&lt;/p&gt;
+&lt;p&gt;I used &lt;strong&gt;Hugo&lt;/strong&gt;  + &lt;strong&gt;GitHub Pages&lt;/strong&gt; for hosting.&lt;/p&gt;
 &lt;p&gt;Reasons:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hugo is lightweight and fast to build locally&lt;/li&gt;

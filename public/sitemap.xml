@@ -2,63 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xyn-1127.github.io/igd301-blog/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/lecture/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/igd301/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/posts/lecture-hw2/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/lab/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/locomotion/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/posts/lab5-locomotion-technique/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/parkour/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/locomotion/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/posts/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/parkour/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/posts/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/vr/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/igd301/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/unity/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/lab/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/vr/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/posts/lab4-roll-a-ball-in-vr/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/lecture/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/roll-a-ball/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/posts/lecture-hw4/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/unity/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/igd301-blog/tags/presentation/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/posts/lab3-roll-a-ball/</loc>
+    <loc>http://localhost:1313/igd301-blog/tags/evaluation/</loc>
+    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lecture-hw3/</loc>
+    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lab4-roll-a-ball-in-vr/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/tags/roll-a-ball/</loc>
+    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lab3-roll-a-ball/</loc>
     <lastmod>2025-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/posts/lab2-setup-unity/</loc>
+    <loc>http://localhost:1313/igd301-blog/posts/lab2-setup-unity/</loc>
     <lastmod>2025-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/setup/</loc>
+    <loc>http://localhost:1313/igd301-blog/tags/setup/</loc>
     <lastmod>2025-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/tags/blog/</loc>
+    <loc>http://localhost:1313/igd301-blog/tags/blog/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/posts/lab1-setuo-blog/</loc>
+    <loc>http://localhost:1313/igd301-blog/posts/lab1-setup-blog/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/posts/lecture-hw1/</loc>
+    <loc>http://localhost:1313/igd301-blog/posts/lecture-hw2/</loc>
+    <lastmod>2025-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/igd301-blog/posts/lecture-hw1/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xyn-1127.github.io/igd301-blog/categories/</loc>
+    <loc>http://localhost:1313/igd301-blog/categories/</loc>
   </url>
 </urlset>

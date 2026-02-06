@@ -1,6 +1,6 @@
 baseURL = "https://xyn-1127.github.io/igd301-blog/"
 languageCode = "en-us"
-title = "IGD301 Blog"
+title = "Human-Computer Interaction for Mixed Reality Blog"
 theme = "PaperMod"
 
 [params]
@@ -8,6 +8,8 @@ theme = "PaperMod"
   ShowReadingTime = true
   ShowToc = true
   disableSpecial1stPost = true
+  homeInlineGallery = true
+  homeInlineGalleryMax = 3
   
 
 [[menu.main]]
@@ -23,5 +25,4 @@ theme = "PaperMod"
         [markup.goldmark.extensions.passthrough.delimiters]
           inline = [['$', '$'], ['\\(', '\\)']]
           block = [['$$', '$$'], ['\\[', '\\]']]
-
 
