@@ -4,6 +4,7 @@ title = "Human-Computer Interaction for Mixed Reality Blog"
 theme = "PaperMod"
 
 [params]
+  author = "Xia Yina"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowToc = true
