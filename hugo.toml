@@ -13,8 +13,8 @@ theme = "PaperMod"
   homeInlineGalleryMax = 3
   
 [params.homeInfoParams]
-  Title = "Hi, I'm Xia Yina"
-  Content = "IGD301 - Human-Computer Interaction for Mixed Reality @ Télécom Paris"
+  Title = "Author: Xia Yina"
+  Content = "Human-Computer Interaction for Mixed Reality @ Télécom Paris"
 
 [[menu.main]]
   name = "Posts"
